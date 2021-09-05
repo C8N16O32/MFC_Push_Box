@@ -1058,7 +1058,6 @@ void GAME::buttonqueue_setfun(){
 		switch (clicktype) {
 		case 0:play->Set(p); break;
 		case 1:play->Do(p); break;
-		case 2:play->Undo(); play->lastflag = 0; break;
 		default:break;
 		}
 	plot
